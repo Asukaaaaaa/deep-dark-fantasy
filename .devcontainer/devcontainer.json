@@ -1,0 +1,11 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "ZshAsDefaultShell": true
+    },
+    "ghcr.io/prulloac/devcontainer-features/bun:1": {
+      "useNpm": true
+    }
+  }
+}
